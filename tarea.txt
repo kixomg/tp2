@@ -1,0 +1,105 @@
+1.i)
+INICIO
+    Escribir "Ingrese el primer número:"
+    Leer num1
+    Escribir "Ingrese el segundo número:"
+    Leer num2
+    
+    Si num1 > num2 Entonces
+        Escribir "El número mayor es:", num1
+    Sino
+        Escribir "El número mayor es:", num2
+    Fin Si
+FIN
+
+2.i)
+INICIO
+    Escribir "Ingrese un número entero:"
+    Leer numero
+    
+    Si numero > 0 Entonces
+        Escribir "El número es positivo"
+    Sino Si numero < 0 Entonces
+        Escribir "El número es negativo"
+    Sino
+        Escribir "El número es nulo"
+    Fin Si
+FIN
+2.ii)
+INICIO
+    Escribir "Ingrese el primer numero:"
+    Leer num1
+    Escribir "Ingrese el segundo numero:"
+    Leer num2
+
+    Si num1 > num2 Entonces
+        Escribir "Suma:", num1 + num2
+        Escribir "Diferencia:", num1 - num2
+    Sino
+        Escribir "Producto:", num1 * num2
+        Si num2 <> 0 Entonces
+            Escribir "Division:", num1 / num2
+        Sino
+            Escribir "No se puede dividir por cero"
+        Fin Si
+    Fin Si
+FIN
+2.iii)
+INICIO
+    Escribir "Ingrese el primer numero:"
+    Leer A
+    Escribir "Ingrese el segundo numero:"
+    Leer B
+    Escribir "Ingrese el tercer numero:"
+    Leer C
+
+    Si A = B o A = C o B = C Entonces
+        Escribir "Error: Los numeros deben ser distintos"
+    Sino
+        Si A > B y A > C Entonces
+            Escribir "El mayor es:", A
+        Sino Si B > A y B > C Entonces
+            Escribir "El mayor es:", B
+        Sino
+            Escribir "El mayor es:", C
+        Fin Si
+
+        Si A < B y A < C Entonces
+            Escribir "El menor es:", A
+        Sino Si B < A y B < C Entonces
+            Escribir "El menor es:", B
+        Sino
+            Escribir "El menor es:", C
+        Fin Si
+    Fin Si
+FIN
+2.iv)
+INICIO
+    Escribir "Ingrese la primera nota:"
+    Leer nota1
+    Escribir "Ingrese la segunda nota:"
+    Leer nota2
+    Escribir "Ingrese la tercera nota:"
+    Leer nota3
+
+    promedio ← (nota1 + nota2 + nota3) / 3
+
+    Si promedio >= 7 Entonces
+        Escribir "TEA"
+    Sino Si promedio >= 4 Entonces
+        Escribir "TEP"
+    Sino
+        Escribir "TED"
+    Fin Si
+FIN
+2.v)
+INICIO
+    Escribir "Ingrese un numero:"
+    Leer N
+
+    Si el residuo de dividir N entre 2 es igual a 0 entonces
+        Escribir "El numero es par"
+    Sino
+        Escribir "El numero es impar"
+    Fin Si
+FIN
